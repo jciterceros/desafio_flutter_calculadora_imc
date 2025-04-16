@@ -1,16 +1,43 @@
-# desafio_flutter_calculadora_imc
+# Calculadora de IMC
 
-A new Flutter project.
+Este é um projeto Dart que implementa uma calculadora de Índice de Massa Corporal (IMC) utilizando a arquitetura MVC (Model-View-Controller) e princípios SOLID.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Entrada de dados do usuário (nome, peso e altura) via console.
+- Cálculo do IMC com base nos dados fornecidos.
+- Classificação do estado de saúde com base no IMC.
+- Separação de responsabilidades em camadas (Controller, View e Model).
 
-A few resources to get you started if this is your first Flutter project:
+## Como Clonar o Repositório
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Certifique-se de ter o Git instalado. Para mais informações, consulte a [documentação oficial do Git](https://git-scm.com/).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. No terminal, execute o seguinte comando para clonar o repositório:
+   ```bash
+    git clone https://github.com/jciterceros/desafio_flutter_calculadora_imc.git
+    ```
+
+## Como Executar
+
+1. Certifique-se de ter o Dart instalado. Para mais informações, consulte a [documentação oficial do Dart](https://dart.dev/get-dart).
+
+2. Navegue até o diretório do projeto:
+   ```bash
+    cd desafio_flutter_calculadora_imc
+   ```
+3. Execute o seguinte comando para instalar as dependências:
+   ```bash
+    dart pub get
+   ```
+4. Execute o seguinte comando para rodar os testes:
+    ```bash
+     flutter test
+    ```
+5. Execute o seguinte comando para iniciar o aplicativo:
+   ```bash
+   dart lib/main.dart
+   ```
+6. Siga as instruções no console para inserir seu nome, peso e altura.
+7. O aplicativo calculará seu IMC e fornecerá uma classificação de acordo com os resultados.
+
